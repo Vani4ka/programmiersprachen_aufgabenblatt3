@@ -8,7 +8,7 @@ bool is_even (unsigned int number){
     return ((number % 2) == 0);
 }
 
-TEST_CASE ("describe_factorial","[aufgabe3]")
+TEST_CASE ("describe_vector","[aufgabe5]")
 {
 
 	std::vector<unsigned int> v(100);

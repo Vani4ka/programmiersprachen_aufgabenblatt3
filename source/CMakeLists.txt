@@ -9,9 +9,6 @@ add_dependencies(aufgaben glfw ${COPY_BINARY})
 
 # Build tests
 add_executable(tests
-  vec2.cpp
-  circle.cpp
-  color.cpp
-  aufgabe7.cpp)
+  aufgabe10.cpp)
 target_link_libraries(tests
 )
